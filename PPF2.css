@@ -1,0 +1,286 @@
+  /* .container{
+    background-color: rgb(199, 160, 236);
+  } */
+
+  /* home section */
+  /* #main-container{
+    padding: 50px;
+  } */
+
+  body{
+    background-color: rgb(245, 245, 156);
+  }
+  .main-section{
+    
+    text-align: center;
+    /* background-color: aqua; */
+  }
+
+  .main-section img{
+    border-radius:50%;
+  }
+  /* hover effect */
+  ul a{
+    text-decoration: none;
+    color: antiquewhite;
+    position: relative;
+    }
+
+
+    ul a::after{ 
+      content: '';
+      width: 0;
+      height: 3px;
+      background: #161214;
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      transition: .5s;
+      }
+      
+      
+      
+      ul a:hover::after{ 
+      /* color: rgb(9, 240, 240); */
+      font-size: 3.07rem;
+      width: 100%;
+      
+      }
+
+
+
+
+
+  /* .navbar .container-fluid{
+    
+    background-color:white; 
+  } */
+
+  .navbar-brand{
+    font-size: 30px;
+  }
+
+  .nav-item a{
+    color: black;
+    font-size: 20px;
+  }
+
+  /* About section */
+
+  .About-section{
+    /* background-color: antiquewhite; */
+    padding: 30px;
+  }
+  .About-section h6{
+    text-align: justify;
+    padding-left: 70PX;
+    padding-right: 70Px;
+  }
+
+  /* .About-section h2{
+    text-align: center;
+    font-size: 50px;
+  } */
+
+  .about2b{
+    padding: 30px;
+    padding-right: 50px;
+    margin-right: 50px;
+    /* background-color: antiquewhite; */
+  }
+
+  .about2b h5{
+    font-size: 20px;
+    /* text-align: start; */
+    /* background-color: antiquewhite; */
+  }
+
+ #image1 img{
+  border-radius: 30px;
+ }
+
+  /* #details{
+    background-color: #ff004f;
+    padding-right:80px;
+  } */
+  /* #details2{
+   
+    background-color: rgb(86, 143, 194);
+  } */
+
+  /* skills section */
+  #skills{
+   margin-left: 50px;
+   margin-right: 50px;
+    /* background-color: #f36995; */
+  }
+
+  /* project section */
+
+  /* #projectsABCD{
+    border: 2px solid black;
+    background-color: #f36995;
+    padding:30px;
+  } */
+
+  #projects{
+    margin-left: 50px;
+    margin-right: 50px;
+   
+  }
+
+  #proP{
+    padding-left:70PX;
+    padding-right:70PX;
+  }
+
+  #projects h6{
+    text-align: center;
+  }
+
+  #projects p{
+    text-align: justify;
+  }
+  #projectsABCD{
+    display: flex;
+    justify-content: space-around;
+  }
+  #projectsABCD .col-lg-6{
+    background-color: rgb(172, 223, 167);
+   border: 2px solid black;
+   box-shadow: 2px 2px 8px 5px black;
+   padding-top: 20px;
+   
+  }
+
+  #projectsABCD .col-lg-6:hover{
+    background-color: rgb(206, 243, 203);
+  }
+
+
+
+  .col h2{
+    text-align: center;
+  }
+  
+  /* #projectsABCD p{
+    text-align: justify;
+    font-size: large;
+    font-weight:500;
+  } */
+
+  /* .col-3 h6{
+    text-align:center ;
+  } */
+
+  /* .col-3 p{
+    text-align:justify;
+  } */
+
+  /* contact section */
+
+
+  #formcontent{
+    padding-left: 90px;
+  }
+  
+  #formcontent form input{
+    background-color: rgb(134, 195, 154);
+    width: 470px;
+    border-radius:8px;
+    height:40px;
+  }
+
+  input:hover{
+    border: 3px solid black;
+    
+  }
+  
+  
+
+  #formcontent form textarea{
+    background-color: rgb(134, 195, 154);
+    width: 470px;
+    height: 70px;
+   
+    border-radius:8px;
+  }
+
+  textarea:hover{
+    border: 3px solid black;
+    
+  }
+
+  #submit{
+
+    display: flex;
+    border: none;
+    justify-content: center;
+    background-color: rgb(134, 195, 154);
+    width: 470px;
+    border-radius:8px;
+  }
+  #submit:hover{
+    /* background-color: antiquewhite; */
+    border: 3px solid black;
+  }
+
+
+  /* social media */
+
+  button {
+    border:none;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color:rgb(249, 249, 153);
+    border-radius:10px;
+    width: 45px;
+    height: 45px;
+  }
+   button:hover{
+       background-color: rgb(216, 229, 182);
+   }
+
+    
+
+  button i{
+    font-size: 30px;
+
+  }
+
+ #abc h2{
+  margin-left: 300px;
+ }
+ .social-media{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: antiquewhite; */
+  margin-right:40px;
+ }
+ #abc h4{
+  text-align: center;
+ }
+
+ #abc h4:hover{
+  font-size: 23px;
+ }
+
+
+ #mail button{
+  margin-left: 60px;
+ }
+ #Call button{
+  margin-left: 20px;
+ }
+ 
+
+ #mail-call {
+    margin-top:90px ;
+   margin-right: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+
+ 
